@@ -411,7 +411,7 @@ $em->flush();
 
 // updating same article also having one new translation
 
-$repo
+$repository
     ->translate($article, 'title', 'lt', 'title lt')
     ->translate($article, 'content', 'lt', 'content lt')
     ->translate($article, 'title', 'ru', 'title ru change')
